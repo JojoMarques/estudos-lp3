@@ -10,4 +10,4 @@ Este repositório tem como objetivo armazenar e controlar os códigos da discipl
 - Aula 03 - Operadores
 - Aula 04 - Estruturas condicionais
 - Aula 05 - Estruturas de repetição
-- Aula 06 - 
+- Aula 06 - Funções
