@@ -3,21 +3,25 @@ Informe ao usuário se o palpite está alto ou baixo, até que ele acerte o núm
 '''
 import random
 
-numero = random.randint(1,100)
+print("Jogo de adivinhação\nAdivinhe o número")
+numero = random.randint(1, 100)
 
-print("Jogo de adivinhação:")
-
-tentativa = int (input("Tente adivinhar o número, digite um número entre 1 a 100:"))
-'''
-acertou == False
-
-def adivinharNumero(tentativa):
-    if(tentativa == numero):
-        return acertou == True
+# definindo a função
+def jogoAdivinhacao(numero):
+    tentativa = int(input("Entre com o seu palpite de número: "))
+    acertou = False
+  
+    if (tentativa == numero):
+        print("Parabéns!! Você acertou :)")
+        acertou = True
+    elif (tentativa > numero):
+        print("Palpite muito alto.")
+    elif (tentativa < numero):
+        print("Palpite muito baixo.")
     
-    elif(tentativa > numero):
-        return acertou == False
-    
-    elif(tentativa < numero):
-        return acertou == False
-'''    
+    return acertou
+
+# chamando a função
+resultado = jogoAdivinhacao(numero)
+while resultado == False: # vai chamar ate o jogador acertar
+    acertou = jogoAdivinhacao(numero)
