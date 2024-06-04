@@ -6,9 +6,9 @@
 #   return 
 
 # Função sem retorno e sem parâmetro:
-def imprimirSaudação ():
+def imprimirSaudação ():                                              
     print("Bodia princesa")
-
+                           
 # Função sem retorno com parâmetros (um ou mais):
 def imprimirNome(nome):
     print(f'nome: {nome}')
@@ -20,7 +20,7 @@ def gerarSaudacao ():
 # Função com retorno e com parâmetro(s):
 def gerarSaudacao2 (nome):
     return f'Bom dia, {nome}'
-
+        
 # parâmetro vs argumento:
 # parâmetro é a referência definida na assinatura da função (pq vc pode acessar nome em qualquer lugar dentro da função) --> 
 # argumento é o valor (literal) ou a referência passada ou enviada para um parâmetro (pode passar um literal diretammente, ou o valor de uma variável (a referência))
@@ -121,7 +121,7 @@ print(obtemSaudacao2)
 ''''
 def calcular_media (notas):
     return sum(notas)/len(notas)
-# nessa função, eu espero que entrem com uma lista ou um atupla de notas
+# nessa função, eu espero que entrem com uma lista ou uma tupla de notas
 '''
 # calcular_media(10.0, 3.0) --> ele entende que são 2 valores
 # calcular_media(7.0, 3.0, 2.0, 5.50) # --> ele entende que são 4 valores --> poderia colocar 4 param, mas:
