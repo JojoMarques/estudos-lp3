@@ -11,3 +11,4 @@ Este repositório tem como objetivo armazenar e controlar os códigos da discipl
 - Aula 04 - Estruturas condicionais
 - Aula 05 - Estruturas de repetição
 - Aula 06 - Funções
+- Aula 07 - Módulos e Pacotes
