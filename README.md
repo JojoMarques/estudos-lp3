@@ -12,3 +12,6 @@ Este repositório tem como objetivo armazenar e controlar os códigos da discipl
 - Aula 05 - Estruturas de repetição
 - Aula 06 - Funções
 - Aula 07 - Módulos e Pacotes
+- Evandro:
+- Aula 01 - Orientação a objetos
+- Aula 02 - Conexão com o Banco de Dados
